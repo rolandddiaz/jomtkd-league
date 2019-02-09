@@ -1,2 +1,2 @@
-# taekwondo-component
-Taekwondo Joomla Component
+# jotkd-league-component
+Joomla Taekwondo Joomla Component
