@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.9.2" method="upgrade">
+	<name>JOOMTKD-League Package</name>
+	<packagename>joomtkd-league</packagename>
+	<creationDate>January 2019</creationDate>
+	<author>www.greateinfotech.com</author>
+	<copyright>Copyright (C) 2017 DJ-Extensions.com, All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses GNU/GPL</license>
+	<authorEmail>admin@greateinfotech.com</authorEmail>
+	<authorUrl>http://www.greateinfotech.com</authorUrl>
+	<version>1.0.0</version>
+	<url>http://www.greateinfotech.com</url>
+	<packager></packager>
+	<packagerurl></packagerurl>
+	<description><![CDATA[
+		<style type="text/css">
+			.joomtkdleague-info { padding: 20px 30px 10px; margin: 0 0 20px 0; background: #3498db; color: #fff; border: 1px solid #2c81ba; font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: normal; -webkit-border-radius: 4px; border-radius: 4px; }
+			.joomtkdleague-title { text-transform: uppercase; font-weight: bold; font-size: 14px; }
+			.joomtkdleague-info a:link, .joomtkdleague-info a:visited, .joomtkdleague-info a:hover { color:#fff; text-decoration:underline; font-weight: 600; }	
+			.joomtkdleague-info img { float: left; margin: 0 30px 10px 0; }
+		</style>
+		<div class="joomtkdleague-info">
+			<img src="components/com_joomtkdleague/assets/images/ex_league.png" />
+			<p class="joomtkdleague-title">Thank you for installing JOOM TKD League!</p>
+			<p>The JOOM TKD League extension is simple solution for league games schedule and score tables. It's very intuitive and easy to use for anyone!
+			If you want to learn how to use JOOM TKD League please read <a target="_blank" href="http://greateinfotech.com/documentation">Documentation</a> and visit our <a target="_blank" href="http://dj-extensions.com/faq">FAQ Section</a></p>
+			<p>Check out our other extensions at <a target="_blank" href="http://dj-extensions.com">greateinfotech.com</a></p>
+			<div style="clear:both"></div>
+		</div>
+		]]></description>
+	<files>
+		<file type="module" client="site" id="joomtkdleague_tables">mod_joomtkdleague_tables.zip</file>
+		<file type="module" client="site" id="joomtkdleague_schedule">mod_joomtkdleague_schedule.zip</file>
+		<file type="component" client="admin" id="com_joomtkdleague">com_joomtkdleague.zip</file>
+	</files>
+	<updateservers>
+		<server type="extension" priority="1" name="JOOM TKD League Package">http://www.greateinfotech.com/updates/joomtkd-league.xml</server>
+	</updateservers>
+</extension>
